@@ -1,11 +1,11 @@
-function findLargest(n, m){
-    alert(Math.max(n,m));
+function findLargest(num1, num2){
+    alert(Math.max(num1,num2));
 }
 
 var msg = "";
 
-function isEvenOrOdd(n){
-    if(n%2==0){
+function isEvenOrOdd(num){
+    if(num%2==0){
         msg = "Even!";
     }
     else{
